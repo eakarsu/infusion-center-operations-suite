@@ -1,0 +1,145 @@
+{
+  "slug": "infusion-center-operations-suite",
+  "title": "Infusion Center Operations Suite",
+  "buyer": "Infusion centers, specialty clinics, hospital outpatient departments",
+  "description": "Infusion scheduling, prior authorization, drug inventory, nurse staffing, adverse events, and revenue operations.",
+  "modules": [
+    {
+      "id": "orders",
+      "table": "orders",
+      "label": "Infusion Orders",
+      "description": "Infusion Orders workspace for Infusion Center Operations Suite.",
+      "subfeatures": [
+        "Order intake",
+        "Protocol validation",
+        "Dose verification"
+      ],
+      "prefix": "IO",
+      "seedValues": [
+        "Order intake",
+        "Protocol validation",
+        "Dose verification"
+      ]
+    },
+    {
+      "id": "authorization",
+      "table": "authorization",
+      "label": "Authorization",
+      "description": "Authorization workspace for Infusion Center Operations Suite.",
+      "subfeatures": [
+        "Benefit check",
+        "PA status",
+        "Denial worklist"
+      ],
+      "prefix": "A",
+      "seedValues": [
+        "Benefit check",
+        "PA status",
+        "Denial worklist"
+      ]
+    },
+    {
+      "id": "chair-utilization",
+      "table": "chairUtilization",
+      "label": "Chair Utilization",
+      "description": "Chair Utilization workspace for Infusion Center Operations Suite.",
+      "subfeatures": [
+        "Capacity planning",
+        "Waitlist",
+        "Turnaround time"
+      ],
+      "prefix": "CU",
+      "seedValues": [
+        "Capacity planning",
+        "Waitlist",
+        "Turnaround time"
+      ]
+    },
+    {
+      "id": "drug-inventory",
+      "table": "drugInventory",
+      "label": "Drug Inventory",
+      "description": "Drug Inventory workspace for Infusion Center Operations Suite.",
+      "subfeatures": [
+        "Buy-and-bill stock",
+        "Cold chain",
+        "Wastage tracking"
+      ],
+      "prefix": "DI",
+      "seedValues": [
+        "Buy-and-bill stock",
+        "Cold chain",
+        "Wastage tracking"
+      ]
+    },
+    {
+      "id": "nursing",
+      "table": "nursing",
+      "label": "Nursing Workflow",
+      "description": "Nursing Workflow workspace for Infusion Center Operations Suite.",
+      "subfeatures": [
+        "Assignments",
+        "Vitals",
+        "Line access"
+      ],
+      "prefix": "NW",
+      "seedValues": [
+        "Assignments",
+        "Vitals",
+        "Line access"
+      ]
+    },
+    {
+      "id": "adverse-events",
+      "table": "adverseEvents",
+      "label": "Adverse Events",
+      "description": "Adverse Events workspace for Infusion Center Operations Suite.",
+      "subfeatures": [
+        "Reaction grading",
+        "Escalation",
+        "Follow-up"
+      ],
+      "prefix": "AE",
+      "seedValues": [
+        "Reaction grading",
+        "Escalation",
+        "Follow-up"
+      ]
+    },
+    {
+      "id": "billing",
+      "table": "billing",
+      "label": "Billing Review",
+      "description": "Billing Review workspace for Infusion Center Operations Suite.",
+      "subfeatures": [
+        "Charge capture",
+        "J-code check",
+        "Claim readiness"
+      ],
+      "prefix": "BR",
+      "seedValues": [
+        "Charge capture",
+        "J-code check",
+        "Claim readiness"
+      ]
+    },
+    {
+      "id": "compliance",
+      "table": "compliance",
+      "label": "Compliance",
+      "description": "Compliance workspace for Infusion Center Operations Suite.",
+      "subfeatures": [
+        "Consent",
+        "Policy checks",
+        "Audit log"
+      ],
+      "prefix": "C",
+      "seedValues": [
+        "Consent",
+        "Policy checks",
+        "Audit log"
+      ]
+    }
+  ],
+  "port": 5603
+}

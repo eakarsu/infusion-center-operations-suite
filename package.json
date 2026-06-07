@@ -1,0 +1,14 @@
+{
+  "name": "infusion-center-operations-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Infusion scheduling, prior authorization, drug inventory, nurse staffing, adverse events, and revenue operations.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
